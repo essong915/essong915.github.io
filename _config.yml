@@ -55,32 +55,19 @@ content:
     layout: list
     content:
       - layout: top-left
-        title: 우주 쓰레기 실시간 관제 시스템
-        sub_title: 개인 프로젝트 (진행 예정)
-        caption: Spring Boot · React · Redis · Spring Batch · Docker · GitHub Actions
+        title: 환승마켓
+        sub_title: 중고거래 시스템 (팀 프로젝트 · 6인 · 3주)
+        caption: Spring Boot · Spring Security · JWT · React(Vite) · WebSocket · Redis · Spring Batch · Docker · GitHub Actions · GCP
+        link: http://hsmarket.duckdns.org/
+        link_text: 🚀 [환승마켓 서비스 바로가기]
         quote: >
-          우주 물체의 실시간 궤도 데이터를 수집·처리·시각화하는 관제 시스템
+          실시간 통신과 인프라 자동화를 경험한 거래 플랫폼
         description: |
-          - 실시간 우주 물체 궤도 데이터 수집 및 처리 파이프라인 설계
-          - Redis를 활용한 데이터 캐싱 및 조회 성능 최적화
-          - Spring Batch 기반 대용량 데이터 배치 처리
-          - Docker 컨테이너화 및 CI/CD 자동화, 서버 배포까지 직접 구축 예정
-
-      - layout: top-left
-        title: 부동산 실거래 조회 서비스
-        sub_title: 개인 프로젝트
-        caption: Spring Boot · React · Docker · GitHub Actions · Azure · Vercel
-        link: realelstate.vercel.app
-        link_text: 부동산 실거래 조회 서비스 방문
-        quote: >
-          공공데이터 기반 아파트 실거래 정보를 시각화하는 웹 서비스
-        description: |
-          - 공공데이터 API를 활용한 지역별 아파트 실거래 데이터 수집 및 제공
-          - 거래 지표 및 거래 금액 차트 시각화
-          - 네이버 지도 API를 활용한 매물 위치 표시
-          - Azure 서버(1 CPU, 1GB RAM) 배포 환경에서 서버 사양 한계를
-            경험하고, 프론트엔드를 Vercel로 분리하여 안정성 확보
-          - Docker 컨테이너화 및 GitHub Actions를 통한 CI/CD 자동화 구축
+          - WebSocket과 Redis를 활용한 다중 접속 환경의 실시간 채팅 시스템 구현
+          - 상품 '찜하기(관심 등록)' 시 해당 사용자에게 알림 제공하는 기능 구현
+          - Spring Batch를 연계한 대용량 데이터 주기적 처리 및 자동화
+          - GCP 인프라 환경 구축 및 Docker를 활용한 서버 배포
+          - 메인 레포지토리 관리, Git 협업 환경(브랜치 전략 등) 세팅 및 GitHub Actions 기반 CI/CD 자동화 파이프라인 구축
       
       - layout: top-left
         title: Beanst
@@ -127,56 +114,26 @@ content:
     layout: list
     content:
       - layout: top-left
-        title: 정보처리기사
-        caption: 2025. 09
-        description: |
-          - 한국산업인력공단
-        
-      - layout: top-left
-        title: SQL 개발자
-        caption: 2025. 04
-        description: |
-          - 한국데이터산업진흥원
-    
-      - layout: top-left
         title: 컴퓨터활용능력 1급
         caption: 2020. 11
         description: |
           - 대한상공회의소
     
       - layout: top-left
-        title: 정보처리기능사
-        caption: 2010. 11
+        title: o
+        caption: o
         description: |
-          - 한국산업인력공단
+          - o
 
   - title: 교육
     layout: list
     content:
-      - layout: top-left
-        title: DCX기반 빅데이터 분석서비스 개발자 과정
-        caption: 2022-06-20 ~ 2022-12-14
-        description: |
-          - 스마트인재개발원
-
       - layout: top-left
         title: (스마트웹&콘텐츠개발)자바(JAVA) 백엔드 웹개발자(JPA,Springboot, AWS)
         caption: 2025-10-23 ~ 2026-04-22
         description: |
           - 하이미디어 컴퓨터학원
 
-  - title: 연구 경험
-    layout: list
-    content:
-      - layout: top-left
-        title: 주요 밀원 개화기 예측 이용 기술 개발
-        sub_title: 농촌진흥청, 참여연구자
-        caption: 2023. 06 ~ 2026. 12
-        quote: >
-          농업·환경 도메인 R&D 과제의 웹 시스템 개발 참여
-        description: |
-          - 기온 데이터를 활용한 개화기 예측 알고리즘 연구 참여
-          - 예측 데이터를 시각화하는 웹 서비스 설계 및 개발 참여
 
 # Footer
 footer_show_references: true
