@@ -26,30 +26,6 @@ about_content: |
   사람들과 잘 어우러지며 협업하는 것을 즐기고, 좋은 팀 안에서 함께 성장하는 개발 문화를 만들어가고 싶습니다.
 
 content:
-  - title: 사회 활동 직무 경험
-    layout: list
-    content:
-      - layout: left
-        title: IoT 스타트업
-        sub_title: Backend Engineer
-        caption: 2023. 06 ~ 2024. 08
-        quote: >
-          IoT 기반 서비스 백엔드 개발 및 농업·환경 도메인 R&D 과제 참여
-        description: |
-          - MQTT 통신을 활용한 IoT 디바이스 실시간 데이터 수집 및 시각화 개발
-          - 회사 웹사이트 제작 및 유지보수
-          - 농업·환경 도메인 R&D 사업 웹 시스템 설계 및 개발 참여
-          
-      - layout: left
-        title: 웹 에이전시
-        sub_title: Engineer Intern
-        caption: 2023. 03 ~ 2023. 05
-        quote: >
-          React 기반 웹 서비스 개발팀 인턴으로 협업 문화 경험
-        description: |
-          - 코드 리뷰 참여를 통한 실무 코드 품질 기준 및 협업 방식 습득
-          - Git/GitHub 기반 협업 워크플로우 실무 적용
-      
 
   - title: 프로젝트
     layout: list
@@ -117,15 +93,21 @@ content:
     content:
       - layout: top-left
         title: 컴퓨터활용능력 1급
-        caption: 2020. 11
+        caption: 2023.04
         description: |
           - 대한상공회의소
     
       - layout: top-left
-        title: o
-        caption: o
+        title: 전산세무 2급
+        caption: 2016.10
         description: |
-          - o
+          - 한국세무사협회
+
+      - layout: top-left
+        title: 전산회계 1급
+        caption: 2016.04
+        description: |
+          - 한국세무사협회
 
   - title: 교육
     layout: list
@@ -135,7 +117,34 @@ content:
         caption: 2025-10-23 ~ 2026-04-22
         description: |
           - 하이미디어 컴퓨터학원
+          
+  - title: 사회 활동 직무 경험
+    layout: list
+    content:      
+      - layout: left
+        title: 머신비전 전문기업
+        sub_title: 회계/인사/총무 담당
+        caption: 2023. 07 ~ 2025. 06
+        quote: >
+          머신비전 전문기업의 경영관리 전반(회계·인사·총무) 프로세스 운영 및 효율화
+        description: |
+          - 이카운트 ERP 활용 전표 입력, 월 결산 마감 및 외부 회계 감사 수검 보조
+          - 부가세, 원천세 등 정기 세무 신고 및 납부 관리와 효율적 자금 수지 계획 수립
+          - 임직원 70명 대상 급여·퇴직금 계산, 4대 보험 및 근태 관리 시스템 운영
+          - 청년추가고용장려금 등 정부지원금 수혜 관리 및 법인 자산(차량·카드·보험) 체계적 관리
 
+      - layout: left
+        title: 전자기기 제조업
+        sub_title: 경영지원 및 영업관리
+        caption: 2017. 09 ~ 2022. 07
+        quote: >
+          제조업 실무 전반(회계·인사·총무·영업관리)에 걸친 멀티태스킹 역량 발휘 및 업무 안정화 기여
+        description: |
+          - 이카운트 ERP 기반의 회계 전표 작성, 결산 지원 및 기초 세무 실무 수행
+          - 급여 지급 체계 관리, 4대 보험 신고 및 연말정산 업무 전담 수행
+          - 영업 지원을 포함한 사무 환경 최적화, 소모품 구매 및 복리후생 제도 운영
+          - 전사 문서 관리 체계 수립 및 임직원 행정 지원 서비스 제공
+      
 
 # Footer
 footer_show_references: true
